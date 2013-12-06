@@ -24,7 +24,7 @@ TEST_SRC_DIRS = \
 	./test\
 	./test/Sprintf\
 	./mocks\
-#	./test/HomeAutoMation\
+	./test/HomeAutoMation\
 
 INCLUDE_DIRS =\
   ./include/util\
