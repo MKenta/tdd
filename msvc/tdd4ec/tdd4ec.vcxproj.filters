@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{bce45cf0-771a-4b68-9e5d-8b3a1c912d96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{301fa13a-e503-449b-8469-716f2cf2b096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\HomeAutomation">
+      <UniqueIdentifier>{f27f6d3f-4156-446a-96f6-e3bc5b849582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\HomeAutomation">
+      <UniqueIdentifier>{eaaeeb8b-3091-4f28-a2e7-945a7dbe6791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\osek">
+      <UniqueIdentifier>{6f7c7458-f3c8-4f12-be1e-a2610cbaf5ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\osek">
+      <UniqueIdentifier>{7d5849f1-a175-4b2a-9c11-952222be1cc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\osek\lib">
+      <UniqueIdentifier>{79da482d-20b3-40b8-81fd-fb183f1abcf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\Sprintf">
+      <UniqueIdentifier>{e118a6db-1748-4103-9d31-db527e0989d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\LEDDriver">
+      <UniqueIdentifier>{ed62bce7-dec7-44d4-a42d-97e56108ef4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\LEDDriver">
+      <UniqueIdentifier>{efdaf750-7858-4c4c-9fd0-82ece19ab40e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{844644ef-fe5d-4940-b39b-d1cff4cc2227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\util">
+      <UniqueIdentifier>{ba60a3af-4280-4843-9c09-145379a3e3c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mocks">
+      <UniqueIdentifier>{7eef93eb-26e3-4eb9-a859-019fadfc41ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\HomeAutomation\LightController.h">
+      <Filter>src\HomeAutomation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\HomeAutomation\LightScheduler.h">
+      <Filter>src\HomeAutomation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\HomeAutomation\TimeService.h">
+      <Filter>src\HomeAutomation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\HomeAutomation\FakeTimeService.h">
+      <Filter>test\HomeAutomation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\HomeAutomation\LightControllerSpy.h">
+      <Filter>test\HomeAutomation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\osek\lib\mymath.h">
+      <Filter>src\osek\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\LedDriver\LedDriver.h">
+      <Filter>src\LEDDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\util\RunTimeError.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mocks\RuntimeErrorStub.h">
+      <Filter>mocks</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\HomeAutomation\LightScheduler.c">
+      <Filter>src\HomeAutomation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\HomeAutomation\LightSchedulerTest.cpp">
+      <Filter>test\HomeAutomation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\HomeAutomation\FakeTimeService.c">
+      <Filter>test\HomeAutomation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\HomeAutomation\FakeTimeServiceTest.cpp">
+      <Filter>test\HomeAutomation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\HomeAutomation\LightControllerSpy.c">
+      <Filter>test\HomeAutomation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\HomeAutomation\LightControllerSpyTest.cpp">
+      <Filter>test\HomeAutomation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\AllTests.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\osek\mymathTest.cpp">
+      <Filter>test\osek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\osek\lib\mymath.c">
+      <Filter>src\osek\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\sprintf\SprintfTest.cpp">
+      <Filter>test\Sprintf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\LEDDriver\LEDDriverTest.cpp">
+      <Filter>test\LEDDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\LedDriver\LedDriver.c">
+      <Filter>src\LEDDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mocks\RuntimeErrorStub.c">
+      <Filter>mocks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Makefile_tdd4ec" />
+  </ItemGroup>
+</Project>
